@@ -8,8 +8,12 @@ import android.util.Log;
  */
 
 public class ControlLight {
-    private static final String IP = "192.168.1.1";
-    private static final int PORT = 5000;
+
+
+    //ip and port set by yourself
+
+    private static final String IP = "";
+    private static final int PORT = 0;
     private static TcpClient tcpClient = null;
     private static ConnectStateListener listener;
 
