@@ -20,6 +20,8 @@ You can see it live downloading [**this apk**](https://github.com/stewForAni/Lam
 
 # License
 ```
+BSD 3-Clause License
+
 Copyright (c) 2017, stew
 All rights reserved.
 
