@@ -112,9 +112,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                     @Override
                     public void onClick(View view) {
 
-                        if (index == 3 || index == 4) {
-                            return;
-                        }
+//                        if (index == 3 || index == 4) {
+//                            return;
+//                        }
 
                         viewPager.setCurrentItem(index);
                     }
