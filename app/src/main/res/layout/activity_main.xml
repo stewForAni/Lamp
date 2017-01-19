@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity"
+    android:background="@color/app_main_color">
+
+    <RelativeLayout
+        android:id="@+id/toolbar_rl"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+
+        <ImageView
+            android:id="@+id/main_setting"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/main_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/back_wifi_list"
+            android:layout_centerInParent="true"
+            android:src="@drawable/wifi_list_icon"
+            android:layout_width="60dp"
+            android:layout_height="25dp" />
+
+
+        <ImageView
+            android:id="@+id/main_set_time"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/main_set_time"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <net.lucode.hackware.magicindicator.MagicIndicator
+        android:layout_below="@id/toolbar_rl"
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+
+    <com.lamps.lamps.util.CustomViewpager
+        android:layout_below="@id/indicator"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+    <RelativeLayout
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="100dp"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/light_off"
+            android:visibility="gone"
+            android:src="@drawable/light_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/light_on"
+            android:src="@drawable/light_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

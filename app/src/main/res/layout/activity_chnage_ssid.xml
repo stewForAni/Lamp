@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_main_color">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:padding="13dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/setting_back" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="@string/change_ssid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/setting_back"
+            android:layout_toEndOf="@+id/setting_back" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:paddingLeft="16dp"
+            android:maxLength="16"
+            android:hint="@string/write_ssid"
+            android:textColorHint="@color/tabUnSelected"
+            android:textColor="@color/tabUnSelected"
+            android:textSize="15sp"
+            android:background="@drawable/white_shape"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:id="@+id/edit_ssid"
+            android:layout_gravity="center_horizontal" />
+
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"
+            android:src="@drawable/clear"
+            android:layout_width="46dp"
+            android:layout_height="46dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:background="@drawable/yellow_shape"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="@string/change_ssid"
+        android:textColor="@color/white_2"
+        android:textSize="18sp"
+        android:id="@+id/button_send" />
+
+
+</LinearLayout>

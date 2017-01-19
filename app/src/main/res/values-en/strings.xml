@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Lamp</string>
+    <string name="no_wifi_remind">WiFi not connected , please</string>
+    <string name="connect">Connect</string>
+    <string name="func_tv_1">Lighting levels</string>
+    <string name="bright_seek_bar_tv_1">Dark</string>
+    <string name="bright_seek_bar_tv_2">Normal</string>
+    <string name="bright_seek_bar_tv_3">Bright</string>
+    <string name="func_tv_2">Twinkle</string>
+    <string name="speed">Speed</string>
+    <string name="twinkle_seek_bar_tv_1">Alternation</string>
+    <string name="twinkle_seek_bar_tv_2">Whole</string>
+    <string name="twinkle_seek_bar_tv_3">Combination</string>
+    <string name="speed_seek_bar_tv_1">Slow</string>
+    <string name="speed_seek_bar_tv_2">Medium</string>
+    <string name="speed_seek_bar_tv_3">Fast</string>
+
+    <string name="func_tv_3">Gradient</string>
+    <string name="func_tv_4">Color</string>
+    <string name="color_seek_bar_tv_1">Color_1</string>
+    <string name="color_seek_bar_tv_2">Color_2</string>
+    <string name="color_seek_bar_tv_3">colour</string>
+    <string name="func_tv_5">Light</string>
+
+    <string name="change_ssid">change SSID</string>
+    <string name="change_wifi_psd">change password</string>
+    <string name="change_language">change language</string>
+
+    <string name="setting_tv_1">change SSID</string>
+    <string name="setting_tv_2">change password</string>
+    <string name="setting_tv_3">change language</string>
+
+
+    <string name="restart">Restart</string>
+    <string name="setting">Set</string>
+    <string name="reset">Reset</string>
+    <string name="language_cn">简体中文</string>
+    <string name="language_en">English</string>
+    <string name="connect_failed">Connect failed</string>
+
+    <string name="tab_bright">Steady</string>
+    <string name="tab_twinkle">Flashing</string>
+    <string name="tab_gradient">Fading</string>
+    <string name="tab_color">Color</string>
+    <string name="tab_light">Chasing</string>
+    <string name="new_psd">New Password</string>
+    <string name="write_ssid">Enter SSID</string>
+    <string name="enter">Enter</string>
+    <string name="timing">Timer</string>
+    <string name="save">Save</string>
+    <string name="ssid_can_not_be_null">SSID is null !</string>
+    <string name="start_time_tv">Start Time</string>
+    <string name="end_time_tv">End Time</string>
+    <string name="plz_open_switch">please open Timing switch first！</string>
+    <string name="remind">Remind</string>
+    <string name="remind_save">Unsaved, sure to exit ?</string>
+
+    <string name="sure">yes</string>
+    <string name="cancel">no</string>
+    <string name="wait">One moment please…</string>
+
+    <string name="moshiz_2">Mode-2</string>
+    <string name="moshi_1">Mode-1</string>
+
+    <string name="psd_null">Please enter password!</string>
+    <string name="psd_8_12">The password must be 8-12</string>
+    <string name="psd_change_success">reset succeeded,please connect again!</string>
+
+
+</resources>

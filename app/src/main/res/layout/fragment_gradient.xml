@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_main_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/func_tv_3"
+        style="@style/function_tv"
+        />
+
+
+    <SeekBar
+        android:splitTrack="false"
+        android:id="@+id/seekBar_gradient"
+        style="@style/seek_bar_style"
+        />
+
+    <RelativeLayout
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            style="@style/seek_bar_tv"
+            android:text="@string/twinkle_seek_bar_tv_1"
+            />
+
+        <TextView
+            android:layout_centerInParent="true"
+            style="@style/seek_bar_tv"
+            android:text="@string/twinkle_seek_bar_tv_2"
+            />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            style="@style/seek_bar_tv"
+            android:text="@string/twinkle_seek_bar_tv_3"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="@string/speed"
+        style="@style/function_tv"
+        />
+
+
+    <SeekBar
+        android:splitTrack="false"
+        android:id="@+id/seekBar_speed"
+        style="@style/seek_bar_style"
+        />
+
+    <RelativeLayout
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            style="@style/seek_bar_tv"
+            android:text="@string/speed_seek_bar_tv_1"
+            />
+
+        <TextView
+            android:layout_centerInParent="true"
+            style="@style/seek_bar_tv"
+            android:text="@string/speed_seek_bar_tv_2"
+            />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            style="@style/seek_bar_tv"
+            android:text="@string/speed_seek_bar_tv_3"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
