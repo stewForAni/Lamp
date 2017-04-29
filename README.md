@@ -10,11 +10,11 @@ Any suggestion, please send to:stewforani@gmail.com,welcome star and fork. Thank
 
 You can see it live downloading [**this apk**](https://github.com/stewForAni/Lamp/raw/master/app-debug.apk)
 
-<img src="https://github.com/stewForAni/Lamp/blob/master/images/image1.png" width="280"> 
-<img src="https://github.com/stewForAni/Lamp/blob/master/images/image2.png" width="280">
+<img src="https://github.com/stewForAni/Lamp/blob/master/images/image1.png" width="250"> 
+<img src="https://github.com/stewForAni/Lamp/blob/master/images/image2.png" width="250">
 
-<img src="https://github.com/stewForAni/Lamp/blob/master/images/image3.png" width="280">
-<img src="https://github.com/stewForAni/Lamp/blob/master/images/image4.png" width="280">
+<img src="https://github.com/stewForAni/Lamp/blob/master/images/image3.png" width="250">
+<img src="https://github.com/stewForAni/Lamp/blob/master/images/image4.png" width="250">
 
 
 
